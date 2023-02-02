@@ -1,0 +1,37 @@
+/* CSS */
+body {
+    background: url(../imagens/fundo05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    background: rgb(255, 255, 255);
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 100px rgb(255, 0, 0);
+}
+
+a {
+    color: #000;
+}
+
+.question {
+    border-bottom: 1px solid #ccc;
+    padding: 300px 0
+}
+  
+.question input,
+.question .answer { display: none }
+  
+.question label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%
+}
+  
+.question input:checked ~ .answer {
+    display: block
+}
